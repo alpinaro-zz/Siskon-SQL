@@ -32,11 +32,11 @@ public class Q3_CreateTable {
 
         //user table
         List<Q3_User> userList=new ArrayList<>();
-        userList.add(new Q3_User(1,"Role A"));
-        userList.add(new Q3_User(2,"Role B"));
-        userList.add(new Q3_User(3,"Role C"));
-        userList.add(new Q3_User(4,"Role D"));
-        userList.add(new Q3_User(5,"Role E"));
+        userList.add(new Q3_User(1,"User A"));
+        userList.add(new Q3_User(2,"User B"));
+        userList.add(new Q3_User(3,"User C"));
+        userList.add(new Q3_User(4,"User D"));
+        userList.add(new Q3_User(5,"User E"));
         PreparedStatement userTable = con.prepareStatement("insert into userTable values(?,?)");
         for (Q3_User each : userList) {
             userTable.setObject(1, each.getUserID());
