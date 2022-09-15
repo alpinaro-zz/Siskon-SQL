@@ -3,7 +3,7 @@
 CREATE DATABASE siskon;
 USE siskon;
 
--- ############### Question 2 ###############
+-- ############### Question 4 ###############
 
 -- Create student_course table
 
